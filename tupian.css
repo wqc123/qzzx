@@ -1,0 +1,9 @@
+div.pic {
+    height: 300px;
+    widows: 300px;
+    float: left;
+    margin: 50px;
+}
+div.pic img{
+    border:none;
+}
