@@ -1,0 +1,62 @@
+.introduction{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0;
+ }
+
+ .introNav{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     text-align: center;
+     width: 20%;
+     position: relative;
+     top: 0;
+     left: 0;
+     //background-color: #ffcc00;
+ }
+
+ .introNav ul{
+     position: relative;
+     left: -35px;
+ }
+
+ .introNav a{
+     font-size: 16px;
+     width: 100%;
+     padding: 10px 15px;
+     display: block;
+     text-align: center;
+     background-color: #f1f1f1;
+ }
+
+ .introNav a:hover{
+     background-color: #46558C;
+     font-size: 16px;
+     color: white;
+ }
+
+ .introContent{
+     font-size: 16px;
+     position: relative;
+     top: -955px;
+     left: 20%;
+     width: 80%;
+     height: 1500px;
+     //background-color: #cccccc;
+ }
+
+ .introContent iframe{
+     position: relative;
+     border: 0;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 1500px;
+     overflow: scroll;
+     clear: both;
+     //background-color: #46558C;
+ }
+

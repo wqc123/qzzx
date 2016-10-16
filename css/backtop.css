@@ -1,0 +1,43 @@
+﻿*{margin:0;padding:0;font-family:"Microsoft YaHei";}
+li{list-style:none}
+img{border:none;}
+/*在线客服*/
+.OnlineService_Bg {
+    width:100px;
+    overflow:hidden;
+    position:fixed;
+    right:10px;
+    bottom:20px;
+    z-index:10;
+}
+
+.OnlineService_Box {
+    width:100%;
+    overflow:hidden;
+}
+
+.OnlineService_Top {
+    width:90px;
+    height:90px;
+    margin-bottom:10px;
+}
+
+.OnlineService_Top a {
+    display:block;
+    position: absolute;
+    top:12px;
+    right:0;
+    width:45px;
+    height:33px;
+    background-color:blue;
+    padding-top:57px;
+    line-height:30px;
+    font-size:16px;
+    text-align:center;
+    color:#fff;
+    background-image:url(../images/icon_Top.png);
+    background-repeat:no-repeat;
+    background-position:center 8px;
+    cursor:pointer;
+    text-decoration:none;
+}

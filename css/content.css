@@ -1,0 +1,234 @@
+.contentUnused{
+    position: relative;
+    top: 5px;
+    right: 0;
+    width: 100%;
+    min-width: 500px;
+    height: 370px;
+    overflow: hidden;
+    //background-color: #ffcc00;
+}
+
+.lostImg{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -240px;
+    left: 510px;
+    width: 500px;
+    min-width: 350px;
+    overflow: hidden;
+    //border:  0.1px dashed #46558C;
+    //background-color: #ffcc00;
+}
+
+.lostImg a{
+    position: relative;
+    left: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.unusedImg{
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 470px;
+    min-width: 350px;
+    min-height: 220px;
+    overflow: hidden;
+    //border:  0.1px dashed #46558C;
+    //background-color: #ffcc00;
+}
+
+.lostImg img, .unusedImg img{
+    margin:0;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.parentIn, .BossIn, .lostPublish, .unusedPublish{
+    float: right;
+    color: white;
+    padding: 3px 5px;
+    background-color: #46558C;
+}
+
+.parentIn img, .BossIn img, .lostPublish img, .unusedPublish img{
+    float: right;
+}
+
+.tutorList, .jobList{
+    position: relative;
+    left:-40px;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    min-width: 400px;
+}
+
+.tutorList ul, .jobList ul{
+    position: relative;
+    right: -40px;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    min-width: 300px;
+}
+
+.lostList{
+    position: relative;
+    left:-40px;
+    margin:0;
+    padding: 0;
+    width: 50%;
+    min-width: 500px;
+    //background-color: #ffcc00;
+}
+
+.unusedList{
+    position: relative;
+    top:-235px;
+    left:510px;
+    min-width: 500px;
+    width: 50%;
+    overflow: hidden;
+    //background-color: #ff1c11;
+}
+
+.tutorList a, .jobList a, .lostList a, .unusedList a{
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+    height: 40px;
+    text-align: left;
+}
+
+.contentOthers{
+    background-image: url("../images/footer.png");
+    text-align: center;
+    position: absolute;
+    top: 2400px;
+    width: 100%;
+    height: 205px;
+    z-index: 10;
+    min-width: 1150px;
+}
+
+.contentOthers a{
+    color: white;
+    text-align: center;
+}
+
+.contentOthers a:hover{
+    color: orange;
+}
+
+.contentOthers ul{
+    //background-color: #ff1c11;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+.blueLine{
+    background-color: #003466;
+    position: relative;
+    top: -15px;
+    width: 100%;
+    height: 15px;
+}
+
+.question{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:30%;
+    //background-color: #ffcc00;
+}
+
+.contactMode{
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    width:30%;
+    min-width: 400px;
+    //background-color: #ffcc00;
+}
+
+.links{
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    width:30%;
+    //background-color: #ffcc00;
+}
+
+.questionTitle, .contactTitle, .linksTitle{
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.contactList{
+    position: relative;
+    left: 16px;
+    color: white;
+    overflow: hidden;
+}
+
+.linkList li, .quesList li, .contactList li{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.weixin img,.weibo img, .QQ img{
+    float: left;
+    padding: 0px 10px;
+    width: 92px;
+    height: 92px;
+}
+
+div.imgList {
+    margin:0px;
+    height:auto;
+    width:auto;
+    float:left;
+    text-align:center;
+}
+
+div.imgList img {
+    display:inline;
+    margin:0px;
+}
+
+div.desc{
+    text-align:center;
+    font-weight:normal;
+    width:100px;
+}
+
+/*底部信息的位置*/
+#imgContentOthers{
+    position: relative;
+    top: 650px;
+}
+
+#txtContentOthers{
+    position: relative;
+    top: 500px;
+}
+
+#changeHeight{
+    position: relative;
+    top: 650px;
+    height: 1100px;
+}
+
+#changeHeight_txt{
+    position: relative;
+    top: 650px;
+    height: 1300px;
+    //background-color: #003466;
+}

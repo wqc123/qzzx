@@ -1,0 +1,122 @@
+/*失物、二手物品信息*/
+#imgContent{
+    height: 2600px;
+}
+
+.imgListMain{
+    position: relative;
+    padding: 0 10px;
+    top: -680px;
+    left: 31%;
+    width: 69%;
+    min-width: 680px;
+    //background-color: cyan;
+}
+
+.imgListMain a:hover{
+    color: black;
+}
+
+.imgListBox{
+    float: left;
+    width: 200px;
+    //height: 285px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #003466;
+}
+
+.imgDexMain{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.txtDesMain{
+    font-size: 14px;
+    float: left;
+    width: 200px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    //border: 1px solid #003466;
+    background-color: #f1f1f1;
+}
+
+.price, .status{
+    font-size: 16px;
+    color: #ff1c11;
+}
+
+/*家教、兼职、失物、二手发布*/
+.apply{
+    position: relative;
+    top: -1038px;
+    margin: 0;
+    padding: 0;
+    left: 35%;
+    width: 100%;
+    height: 1050px;
+    background-color: #f1f1f1;
+}
+
+.applyTop{
+    color: #436088;
+}
+
+.error{
+    color: #ff1c11;
+}
+
+/*公告通知、家教信息、兼职信息*/
+.textListMain{
+    position: relative;
+    left: 31%;
+    width: 69%;
+    top: -1038px;
+    padding: 0 10px;
+}
+
+.listContentMain{
+    width: 97%;
+    position: relative;
+    top: 0;
+    left: -30px;
+}
+.listContentMain a{
+    font-size: 16px;
+    float: left;
+    height: 30px;
+    padding: 1px 0 0 0;
+}
+
+.listContentMain span{
+    float: right;
+    height: 30px;
+}
+.listContentMain hr{
+    border: 1px #003466 dotted;
+}
+
+.pagination{
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    padding: 0 50px;
+    height: 30px;
+    width: 100%;
+    //background-color: #46558C;
+}
+
+.pagination li{
+    float: left;
+    margin: 1px;
+    padding: 5px 10px;
+    //background-color: #cccccc;
+}
+
+.pagination input{
+    position: relative;
+    top: -3px;
+}

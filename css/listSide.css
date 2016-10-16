@@ -1,0 +1,111 @@
+/*30%左侧信息*/
+
+/*中心信息*/
+.contentInfo_left{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 280px;
+    overflow: hidden;
+    //background-color: #ffcc00;
+}
+
+/*家教、兼职信息*/
+.textListSide{
+    position: relative;
+    top: 0;
+    left:0;
+    width: 30%;
+    height: 400px;
+    min-width: 200px;
+    //background-color: #ff1c11;
+}
+
+.textList{
+    position: relative;
+    top: -10px;
+    left: 0;
+    margin: 0;
+    padding: 10px 0px 0px 0px ;
+    width: 100%;
+    height: 350px;
+    min-width: 200px;
+    font-size: 16px;
+    //background-color: #003466;
+}
+
+.textList ul{
+    position: relative;
+    top: -10px;
+    left: -40px;
+    width: 100%
+}
+
+.textList li{
+    line-height: 20px;
+}
+
+/*二手、失物*/
+.contentImg_left_down{
+    position: relative;
+    top: 0;
+    left:0;
+    width: 30%;
+    height: auto;
+    min-width: 300px;
+    //background-color: #ffcc00;
+}
+
+.list_left{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 720px;
+    //background-color: rebeccapurple;
+}
+
+.listContent{
+    margin: 0;
+    padding: 10px 0px 0px 0px ;
+    border-bottom: 1px dashed #003466;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    //background-color: #f1f1f1;
+}
+
+.Img_left{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    //background-color: #f1f1f1;
+}
+
+.img_left{
+    width: 100px;
+    height:100px;
+}
+
+.Desc_left{
+    float: left;
+    width: 200px;
+    height: 100px;
+    display: inline;
+    //background-color: antiquewhite;
+}
+
+.Desc_left{
+    font-size: 16px;
+    text-align: left;
+}
+
+.Desc_left span{
+    font-size: 16px;
+    color: #003466;
+}
